@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+body {
+    background-color: #d9dcd6;
+}
+
+header{
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    display: flex;
+    background-color: #2a607c;
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1{
+    display: inline-block;
+    font-size: 48px;
+    color: white;
+}
+
+span{
+    color: #d9dcd6;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+li {
+    display: inline;
+    margin-left: 25px;
+    list-style-type: none;
+    float: right;
+  }
+
+ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+a{
+      text-decoration: none;
+      color: white;
+      position: relative;
+
+  }
+
+p {
+    font-size: 16px;
+}
+
+h2{
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.h3{
+    margin-top: 30px;
+}
+.img{
+    max-height: 300px;
+    margin: 10px auto;
+    max-width: 250px;
+}
+
+.content-container{
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+    padding-top: 20px;
+}
+
+.container{
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    background-color: #0072bb;
+    color: #ffffff;
+    float: left;
+    margin-right: 25px;
+}
+
+.side-container{
+    margin-right: 20px;
+    margin-top: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    background-color: #2589bd;
+    color: #ffffff;
+    text-align: center;
+
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+
+.footer {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+footer{
+    padding: 30px; 
+    font-size: 20px;
+}
+
+.icn{
+    width: 170px;
+}
+
+.nav-links{
+    position: relative;
+    right: -425px;
+    line-height: 50px;
+}
